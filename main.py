@@ -1,10 +1,9 @@
 import requests
-from twilio.rest import Client
+import os
 
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
-ALPHA_API_KEY = "PZF8668E5V0GZTX7"
-NEWS_API_KEY = "fb40908493a94ef6ae1212b79911a59c"
+ALPHA_API_KEY = "YOUR API KEY"
 
 parameters = {
     "function" : "TIME_SERIES_DAILY",
